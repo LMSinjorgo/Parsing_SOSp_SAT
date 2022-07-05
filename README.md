@@ -6,6 +6,6 @@ $$Q_{i,j} = 1 \text{ if } x_j \text{ appears in clause } i$$
 and for $i \in [m]$ and $n+1 \leq j \leq 2n$,
 $$Q_{i,j} = 1 \text{ if } \neg x_{j-n} \text{ appears in clause } i.$$
 
-The function \texttt{cnfConverter.m} takes as input a \texttt{.cnf} file, as specified by the DIMACS CNF file format (see https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html), and converts this into a matrix $Q$ as described above.
+The function \texttt{cnfConverter.m} takes as input a $\texttt{.cnf}$ file, as specified by the DIMACS CNF file format (see https://people.sc.fsu.edu/~jburkardt/data/cnf/cnf.html), and converts this into a matrix $Q$ as described above.
 
-The function \texttt{createRandomInstance.m}, with inputs $n$, $m$ and $k$ creates a $Q$ matrix corresponding to a (MAX-)SAT instance on $n$ variables and $m$ clauses, all of which have length $k$.
+The function $\texttt{createRandomInstance.m}$, with inputs $n$, $m$ and $k$ creates a $Q$ matrix corresponding to a (MAX-)SAT instance on $n$ variables and $m$ clauses, all of which have length $k$.
